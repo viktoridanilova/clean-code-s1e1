@@ -18,7 +18,7 @@
 
 .header 
 .header__link {
-  font-family: fantasy, cursive;
+  font-family: cursive;
 }
 
 @media (max-width:768px) {
@@ -110,7 +110,6 @@
 /* New Task */
 .section-add-item__input {
   display: block;
-  margin: 0 0 20px;
 }
 
 .section-add-item__input {
