@@ -159,8 +159,7 @@
 }
 
 /* Completed */
-.section-completed, 
-.input_label {
+.section-completed label {
   text-decoration: line-through;
   color: #888;
 }
