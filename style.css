@@ -37,7 +37,7 @@
 .section-add-item__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .section-add-item__form {
@@ -136,7 +136,7 @@
 }
 
 .input_description {
-  width: 226px
+  width: 226px;
 }
 
 .button_delete, .img_delete {
@@ -151,18 +151,18 @@
 
 /* Completed */
 .section-completed, .input_label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .input_description {
-  display: none
+  display: none;
 }
 
 .section-todo__item_edit-mode .input_description {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .section-todo__item_edit-mode .input_label {
