@@ -6,52 +6,52 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="header">
+    <section class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-      <p class="section-add-item section">
-        <label class="section-add-item__title title" for="new-task">Add Item</label>
-        <div class="section-add-item__form">
+    </section>
+    <section class="main">
+      <article class="section-add-item section">
+        <h2 class="section-add-item__title title">Add Item</h2>
+        <form class="section-add-item__form">
           <input class="section-add-item__input input_description" type="text">
-          <button class="section-add-item__button button_options">Add</button>
-        </div>
-      </p>
-      <h3 class="section-todo__title title">Todo</h3>
-      <ul class="section-todo section">
-        <li class="section__form">
+          <button class="section-add-item__button button_options" type="button">Add</button>
+        </form>
+      </article>
+      <h2 class="section-todo__title title">Todo</h2>
+      <article class="section-todo section">
+        <form class="section__form">
           <input class="section-todo__checkbox input_checkbox" type="checkbox">
           <label class="section-todo__label input_label">Pay Bills</label>
           <input class="section-todo__input input_description" type="text">
-          <button class="section-todo__button button_options">Edit</button>
-          <button class="section-todo__button-delete button_delete">
+          <button class="section-todo__button button_options" type="button">Edit</button>
+          <button class="section-todo__button-delete button_delete" type="button">
             <img class="section-todo__img img_delete" src="./remove.svg">
           </button>
-        </li>
-        <li class="section-todo__item_edit-mode section__form">
+        </form>
+        <form class="section-todo__item_edit-mode section__form">
           <input class="section-todo__checkbox input_checkbox" type="checkbox">
           <label class="section-todo__label input_label">Go Shopping</label>
           <input class="section-todo__input input_description" type="text" value="Go Shopping">
-          <button class="section-todo__button button_options">Save</button>
-          <button class="section-todo__button-delete button_delete">
+          <button class="section-todo__button button_options" type="button">Save</button>
+          <button class="section-todo__button-delete button_delete" type="button">
             <img class=" section-todo__img img_delete" src="./remove.svg">
           </button>
-        </li>
-      </ul>
-      <h3 class="section-completed__title title">Completed</h3>
-      <ul class="section-completed section">
-        <li class="section__form">
+        </form>
+      </article>
+      <h2 class="section-completed__title title">Completed</h2>
+      <article class="section-completed section">
+        <form class="section__form">
           <input class="section-completed__checkbox input_checkbox" type="checkbox" checked>
           <label class="section-completed__label input_label">See the Doctor</label>
           <input class="section-completed__input input_description" type="text">
-          <button class="section-completed__button button_options">Edit</button>
-          <button class="section-completed__button-delete button_delete">
+          <button class="section-completed__button button_options" type="button">Edit</button>
+          <button class="section-completed__button-delete button_delete" type="button">
             <img class="section-completed__img img_delete" src="./remove.svg">
           </button>
-        </li>
-      </ul>
-    </div>
+        </form>
+      </article>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
