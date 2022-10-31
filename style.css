@@ -16,7 +16,8 @@
   width: 100%;
 }
 
-.header .header__link {
+.header 
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -50,15 +51,20 @@
   padding: 0px;
 }
 
-.section__form, .title {
+.section__form, 
+.title {
   list-style: none;
 }
 
-.input_description, .input_checkbox, .button_options, .button_delete{
+.input_description, 
+.input_checkbox, 
+.button_options, 
+.button_delete {
   outline: none;
 }
 
-.button_options, .button_delete {
+.button_options, 
+.button_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +74,8 @@
   cursor: pointer;
 }
 
-.button_options:hover, .button_delete:hover {
+.button_options:hover, 
+.button_delete:hover {
   color: #3a3a3a;
 }
 
@@ -139,18 +146,21 @@
   width: 226px;
 }
 
-.button_delete, .img_delete {
+.button_delete, 
+.img_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button_delete, .img_delete:hover {
+.button_delete, 
+.img_delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.section-completed, .input_label {
+.section-completed, 
+.input_label {
   text-decoration: line-through;
   color: #888;
 }
