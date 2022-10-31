@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header__img  {
   width: 100%;
 }
 .header .header__link {
@@ -33,18 +33,19 @@ body {
 }
 .section-add-item__form {
   display: flex;
+  padding: 20px 0;
 }
-ul {
+.section {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.section__form, .title {
   list-style:none;
 }
-input,button{
+.input_description, .input_checkbox, .button_options, .button_delete{
   outline:none;
 }
-button {
+.button_options, .button_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -53,11 +54,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button_options:hover, .button_delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3 {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -66,7 +67,7 @@ h3 {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.input_description {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -78,7 +79,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.input_description:focus {
   color: #333;
 }
 
@@ -92,7 +93,7 @@ input[type="text"]:focus {
 }
 
 /* Task list */
-li {
+.section__form {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -101,20 +102,20 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.section__form {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.input_checkbox {
   margin: 0 10px;
 }
-li > label {
+.input_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+.input_description {
   width: 226px
 }
 .button_delete, .img_delete {
@@ -127,21 +128,24 @@ li >    input[type="text"] {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.section-completed, .input_label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.input_description {
   display:none
 }
 
-ul .section-todo__item_edit-mode input[type="text"] {
+.section-todo__item_edit-mode .input_description {
   display:inline-block;
   width:224px
 }
 
-ul .section-todo__item_edit-mode label {
+.section-todo__item_edit-mode .input_label {
   display:none;
 }
+.section-add-item__input {
+    display: inline-block;
+  }
