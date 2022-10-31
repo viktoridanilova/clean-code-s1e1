@@ -46,16 +46,16 @@
 }
 
 .section {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .section__form, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .input_description, .input_checkbox, .button_options, .button_delete{
-  outline:none;
+  outline: none;
 }
 
 .button_options, .button_delete {
@@ -157,16 +157,16 @@
 
 /* Edit Task */
 .input_description {
-  display:none
+  display: none
 }
 
 .section-todo__item_edit-mode .input_description {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .section-todo__item_edit-mode .input_label {
-  display:none;
+  display: none;
 }
 
 .section-add-item__input {
