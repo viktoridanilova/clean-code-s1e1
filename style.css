@@ -4,47 +4,60 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img  {
   width: 100%;
 }
+
 .header .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header {  text-align: center;
+
+  .header {  
+    text-align: center;
   }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .section-add-item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .section-add-item__form {
   display: flex;
   padding: 20px 0;
 }
+
 .section {
   margin:0;
   padding: 0px;
 }
+
 .section__form, .title {
   list-style:none;
 }
+
 .input_description, .input_checkbox, .button_options, .button_delete{
   outline:none;
 }
+
 .button_options, .button_delete {
   background: none;
   border: 0px;
@@ -54,9 +67,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button_options:hover, .button_delete:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -67,6 +82,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input_description {
   margin: 0;
   font-size: 18px;
@@ -79,6 +95,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input_description:focus {
   color: #333;
 }
@@ -88,6 +105,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .section-add-item__input {
   width: 318px;
 }
@@ -97,11 +115,11 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .section__form {
   vertical-align: middle;
 }
@@ -109,20 +127,24 @@
 .input_checkbox {
   margin: 0 10px;
 }
+
 .input_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .input_description {
   width: 226px
 }
+
 .button_delete, .img_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button_delete, .img_delete:hover {
   transform: rotateZ(0);
 }
@@ -146,6 +168,7 @@
 .section-todo__item_edit-mode .input_label {
   display:none;
 }
+
 .section-add-item__input {
     display: inline-block;
-  }
+}
